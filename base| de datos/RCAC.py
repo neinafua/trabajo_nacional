@@ -38,7 +38,7 @@ while True:
     cv2.imshow("RCAC", frame)
 
     k = cv2.waitKey(1)
-    if k == 27 or count >= 300:
+    if k == 27 or count >= 200:
         break
 
 cap.release()

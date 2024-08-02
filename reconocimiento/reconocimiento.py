@@ -1,12 +1,12 @@
 import cv2
 import os
 
-data_path = 'C:/Users/edwin/Documents/proyecto_programacion/data'
+data_path = '/home/sistemas/achinti/trabajo_nacional/data'
 image_path = os.listdir(data_path)
 
 face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 
-face_recognizer.read('beta.xml')
+face_recognizer.read('prueba.xml')
 
 cap = cv2.VideoCapture(0)
 

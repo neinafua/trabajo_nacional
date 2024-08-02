@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 
-dataPath = '/home/sistemas/achinti/trabajo_nacional/data+'
+dataPath = '/home/sistemas/achinti/trabajo_nacional/data'
 peopleListe = os.listdir(dataPath)
 print('Lista de personas: ', peopleListe)
 
